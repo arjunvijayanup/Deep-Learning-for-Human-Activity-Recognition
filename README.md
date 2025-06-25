@@ -84,7 +84,7 @@ install_keras()
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/<your-username>/ActivityRecognition-NN.git
+git clone https://github.com/<your-username>/Deep-Learning-for-Human-Activity-Recognition.git
 cd ActivityRecognition-NN
 ```
 
