@@ -97,13 +97,15 @@ git clone https://github.com/<your-username>/Deep-Learning-for-Human-Activity-Re
 cd Deep-Learning-for-Human-Activity-Recognition
 ```
 
-2. **Render the Quarto document**
+2. **Download and prepare the data** (see [Data](#data))
+
+3. **Render the Quarto document**
 ```bash
 quarto render ActivityRecognition-with-NN.qmd
 ```
    This generates the PDF (`ActivityRecognition-with-NN.pdf`) with all analysis, code, and figures.
 
-3. **Inspect models**
+4. **Inspect models**
    - Open `ActivityRecognition-with-NN.qmd` in Quarto or RStudio
    - Run code chunks to reproduce model training and evaluation
 
