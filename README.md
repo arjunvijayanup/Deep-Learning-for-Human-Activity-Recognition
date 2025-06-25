@@ -120,7 +120,3 @@ The complete results—including training/validation curves, confusion matrix, a
 
 ---
 
-## License
-
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
-
