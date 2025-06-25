@@ -85,7 +85,7 @@ install_keras()
 1. **Clone the repository**
 ```bash
 git clone https://github.com/<your-username>/Deep-Learning-for-Human-Activity-Recognition.git
-cd ActivityRecognition-NN
+cd Deep-Learning-for-Human-Activity-Recognition
 ```
 
 2. **Render the Quarto document**
