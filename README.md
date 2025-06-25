@@ -46,11 +46,21 @@ The goal is to identify the most effective architecture for classifying 19 diffe
 
 ## Data
 
-- **activity_recognition.Rdata**: Contains three-dimensional arrays:
-  - Training/Validation: 8170 × 125 × 45 (N × time steps × sensors)
-  - Test: 950 × 125 × 45
-- Each sample represents a 5-second recording across 45 sensors.
-- A random subsample of 950 segments is held out for validation; the remainder is used for training. The test set is used for final evaluation.
+This project uses the “Daily and Sports Activities” dataset from the UCI Machine Learning Repository, which consists of motion sensor recordings of 19 activities (e.g., walking, running, cycling) performed by 8 subjects (4 male, 4 female) for five minutes each. Five sensor units—mounted on the torso, right arm, left arm, right leg, and left leg—record data at 25 Hz from nine sensors (accelerometer, gyroscope, and magnetometer in x-y-z axes), yielding a 125 × 45 matrix per 5‑second segment.
+
+- **Training/Validation (**``**, **``**):** 430 segments per activity (8170 total).
+- **Test (**``**, **``**):** 50 segments per activity (950 total).
+
+The raw 5‑minute signals are divided into 5‑second windows (125 samples) across 45 sensor channels. For column grouping:
+
+- Columns 1–9: torso
+- Columns 10–18: right arm
+- Columns 19–27: left arm
+- Columns 28–36: right leg
+- Columns 37–45: left leg
+
+More details and raw files are available at the UCI repository: [https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities](https://archive.ics.uci.edu/ml/datasets/Daily+and+Sports+Activities).
+
 
 ---
 
