@@ -48,8 +48,8 @@ The goal is to identify the most effective architecture for classifying 19 diffe
 
 This project uses the “Daily and Sports Activities” dataset from the UCI Machine Learning Repository, which consists of motion sensor recordings of 19 activities (e.g., walking, running, cycling) performed by 8 subjects (4 male, 4 female) for five minutes each. Five sensor units—mounted on the torso, right arm, left arm, right leg, and left leg—record data at 25 Hz from nine sensors (accelerometer, gyroscope, and magnetometer in x-y-z axes), yielding a 125 × 45 matrix per 5‑second segment.
 
-- **Training/Validation (**``*x*, *y*``**):** 430 segments per activity (8170 total).
-- **Test (**``*x_test*, *y_test*``**):** 50 segments per activity (950 total).
+- **Training/Validation (**x, y**):** 430 segments per activity (8170 total).
+- **Test (**x_test, y_test**):** 50 segments per activity (950 total).
 
 The raw 5‑minute signals are divided into 5‑second windows (125 samples) across 45 sensor channels. For column grouping:
 
